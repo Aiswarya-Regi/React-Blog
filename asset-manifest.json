@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Blog/static/css/main.c692eaaf.css",
+    "main.js": "/React-Blog/static/js/main.a9939568.js",
+    "static/js/787.f587e8d5.chunk.js": "/React-Blog/static/js/787.f587e8d5.chunk.js",
+    "static/media/TropicalImage.jpg": "/React-Blog/static/media/TropicalImage.344211da824abca62120.jpg",
+    "static/media/TropicalImage2.jpg": "/React-Blog/static/media/TropicalImage2.fc5bdd5200f5846b1895.jpg",
+    "index.html": "/React-Blog/index.html",
+    "main.c692eaaf.css.map": "/React-Blog/static/css/main.c692eaaf.css.map",
+    "main.a9939568.js.map": "/React-Blog/static/js/main.a9939568.js.map",
+    "787.f587e8d5.chunk.js.map": "/React-Blog/static/js/787.f587e8d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c692eaaf.css",
+    "static/js/main.a9939568.js"
+  ]
+}
