@@ -12,7 +12,7 @@ const FoodSection = () => {
       <div className="card__list">
         {food?.map((food) => {
           return (
-            <div className="vertical__card" onClick={() => navigate(`/${food.type}/${food.id}`)}>
+            <div className="vertical__card" key={food.id} onClick={() => navigate(`/${food.type}/${food.id}`)}>
               <ImageCard
                 url={food.url}
                 title={food.title}

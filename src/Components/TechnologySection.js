@@ -12,7 +12,7 @@ const TechnologySection = () => {
       <div className="card__list">
         {technology?.map((technology) => {
           return (
-            <div className="vertical__card" onClick={() => navigate(`/${technology.type}/${technology.id}`)}>
+            <div className="vertical__card" key={technology.id} onClick={() => navigate(`/${technology.type}/${technology.id}`)}>
               <ImageCard
                 url={technology.url}
                 title={technology.title}

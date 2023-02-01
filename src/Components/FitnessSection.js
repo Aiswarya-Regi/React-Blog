@@ -13,7 +13,7 @@ const FitnessSection = () => {
       <div className="card__list">
         {fitness?.map((fitness) => {
           return (
-            <div className="vertical__card" onClick={() => navigate(`/${fitness.type}/${fitness.id}`)}>
+            <div className="vertical__card" key={fitness.id} onClick={() => navigate(`/${fitness.type}/${fitness.id}`)}>
               <ImageCard
                 url={fitness.url}
                 title={fitness.title}

@@ -14,7 +14,7 @@ const Bollywood = () => {
       <div className="articles__list">
         {bollywood?.map((bollywood) => {
           return (
-            <div className="article__container" onClick={() => navigate(`/${bollywood.type}/${bollywood.id}`)}>
+            <div className="article__container" key={bollywood.id} onClick={() => navigate(`/${bollywood.type}/${bollywood.id}`)}>
               <HorizontalImageCard
                 url={bollywood.url}
                 title={bollywood.title}

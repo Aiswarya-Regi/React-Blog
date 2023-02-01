@@ -13,7 +13,7 @@ const Food = () => {
       <div className="articles__list">
         {food?.map((food) => {
           return (
-            <div className="article__container" onClick={() => navigate(`/${food.type}/${food.id}`)}>
+            <div className="article__container" key={food.id} onClick={() => navigate(`/${food.type}/${food.id}`)}>
               <HorizontalImageCard
                 url={food.url}
                 title={food.title}

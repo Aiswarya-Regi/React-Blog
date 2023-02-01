@@ -11,7 +11,7 @@ const LatestSection = () => {
       <div className="card__list">
         {places?.map((place) => {
           return (
-            <div className="vertical__card" onClick={() => navigate(`/${place.type}/${place.id}`)}>
+            <div className="vertical__card" key={place.id} onClick={() => navigate(`/${place.type}/${place.id}`)}>
               <ImageCard
                 url={place.url}
                 title={place.title}

@@ -8,6 +8,7 @@ const BannerSection = () => {
       {banner?.map((banner, index) => {
         return (
           <div
+          key={banner.id}
             className={
               index === 0
                 ? "first__banner"

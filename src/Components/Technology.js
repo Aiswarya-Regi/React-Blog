@@ -12,7 +12,7 @@ const Technology = () => {
       <div className="articles__list">
         {technology?.map((technology) => {
           return (
-            <div className="article__container" onClick={() => navigate(`/${technology.type}/${technology.id}`)}>
+            <div className="article__container" key={technology.id} onClick={() => navigate(`/${technology.type}/${technology.id}`)}>
               <HorizontalImageCard
                 url={technology.url}
                 title={technology.title}
