@@ -72,7 +72,7 @@
     }
   
     .header__vertical {
-      font-size: 12px;
+      font-size: 15px;
     }
   
     li {
@@ -81,7 +81,7 @@
   
     .header__text {
       justify-content: left;
-      font-size: 20px;
+      font-size: 25px;
     }
     .burger {
       width: 2rem;
