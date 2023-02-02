@@ -1,7 +1,7 @@
 .App {
   margin: 3% 12% 0 12%;
 }
-@media (max-width: 468px) {
+@media (max-width: 500px) {
   .App {
     margin: 3% 6% 0 6%;
   }
